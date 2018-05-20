@@ -50,12 +50,16 @@ public class HelloWorld {
             System.out.println(y);
         }
         {
+
+
+
+
             String userInput;
             Scanner sc = new Scanner(System.in);
 
             System.out.println("enter something");
             userInput = sc.nextLine();
-            System.out.println("---->  " + userInput + " <----");
+            System.out.println("you entered ---->  " + userInput + " <----");
         }
     }
 }
