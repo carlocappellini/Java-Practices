@@ -10,14 +10,33 @@ public class ControlFlow {
 //
 //
 //        }
-        int j = 0;
+//        int j = 0;
+//        do{
+//
+//
+//            System.out.println(j = j+2);
+//
+//        } while (j < 100);
+//
+//
+
+
+        int i = 100;
+
+        System.out.println(i);
         do{
 
 
-            System.out.println(j = j+2);
-
-        } while (j < 100);
 
 
+            i = i- 5;
+            System.out.println(i);
+
+
+
+
+
+        }while (i > 0);
     }
+
 }
