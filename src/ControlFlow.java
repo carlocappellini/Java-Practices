@@ -21,22 +21,42 @@ public class ControlFlow {
 //
 
 
-        int i = 100;
+//        int i = 100;
+//
+//        System.out.println(i);
+//        do{
+//
+//
+//
+//
+//            i = i- 5;
+//            System.out.println(i);
+//
+//
+//
+//
+//
+//        }while (i > 0);
 
-        System.out.println(i);
-        do{
+
+        for (int i = 0; i <= 100; i++) {
 
 
 
+            if(i % 5 == 0 && i % 3 == 0){
+                System.out.println("fizzBuzz" + " " + i);
+            }
+            if (i % 5 == 0) {
+                System.out.println("Buzz" + " " + i);
+            }
 
-            i = i- 5;
-            System.out.println(i);
+            if (i % 3 == 0 ){
+                System.out.println("fizz" + " " + i);
+
+            }
 
 
+        }
 
-
-
-        }while (i > 0);
     }
-
 }
