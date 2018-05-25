@@ -4,8 +4,7 @@ public class StringExercise {
     public static void main(String[] args) {
 
 
-
-
+        System.out.println(getPower(4,4));
 
 
         Scanner sc = new Scanner(System.in);
@@ -38,4 +37,15 @@ public class StringExercise {
         } while (input.equals("yes") || input.equalsIgnoreCase("y"));
         System.out.println("See ya");
     }
+    public static long getPower(int base, int exponent) {
+        if (exponent == 0) {
+            return 1;
+        } else if (exponent == 1) {
+            return base;
+        } else if (exponent == 2) {
+            return base * base;
+        }
+        return base * getPower(base, exponent -1) ;
+    }
+
 }
